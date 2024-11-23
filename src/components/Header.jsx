@@ -13,7 +13,7 @@ function Header() {
           <li>Home</li>
           <li>About Us</li>
           <li>Courses</li>
-          <li>Franchise</li>
+          <li>opportunity</li>
           <li>Careers</li>
           <li>Insights</li>
           <li>
