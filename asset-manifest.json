@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.83918ad7.css",
-    "main.js": "/Sparkids/static/js/main.5d25bd7f.js",
+    "main.css": "/Sparkids/static/css/main.fe0f49b5.css",
+    "main.js": "/Sparkids/static/js/main.f2387acf.js",
     "static/js/453.8cea8195.chunk.js": "/Sparkids/static/js/453.8cea8195.chunk.js",
+    "static/media/opport3.jpg": "/Sparkids/static/media/opport3.0f09a60de878681930f1.jpg",
+    "static/media/opport1.jpg": "/Sparkids/static/media/opport1.54f5ef5fc79b24ef4a8b.jpg",
     "static/media/brain.png": "/Sparkids/static/media/brain.63adb50f730c2bb1248e.png",
     "static/media/person1.jpg": "/Sparkids/static/media/person1.6f05986e5e719d7adb09.jpg",
     "static/media/logo.png": "/Sparkids/static/media/logo.aa0c3ebb416c0b99795b.png",
+    "static/media/opport2.jpg": "/Sparkids/static/media/opport2.f959eca956a1f88bb0d9.jpg",
     "index.html": "/Sparkids/index.html",
-    "main.83918ad7.css.map": "/Sparkids/static/css/main.83918ad7.css.map",
-    "main.5d25bd7f.js.map": "/Sparkids/static/js/main.5d25bd7f.js.map",
+    "main.fe0f49b5.css.map": "/Sparkids/static/css/main.fe0f49b5.css.map",
+    "main.f2387acf.js.map": "/Sparkids/static/js/main.f2387acf.js.map",
     "453.8cea8195.chunk.js.map": "/Sparkids/static/js/453.8cea8195.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83918ad7.css",
-    "static/js/main.5d25bd7f.js"
+    "static/css/main.fe0f49b5.css",
+    "static/js/main.f2387acf.js"
   ]
 }
