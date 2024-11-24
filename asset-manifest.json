@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.fe0f49b5.css",
-    "main.js": "/Sparkids/static/js/main.f2387acf.js",
+    "main.css": "/Sparkids/static/css/main.84564a99.css",
+    "main.js": "/Sparkids/static/js/main.114d8d17.js",
     "static/js/453.8cea8195.chunk.js": "/Sparkids/static/js/453.8cea8195.chunk.js",
+    "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
     "static/media/opport3.jpg": "/Sparkids/static/media/opport3.0f09a60de878681930f1.jpg",
     "static/media/opport1.jpg": "/Sparkids/static/media/opport1.54f5ef5fc79b24ef4a8b.jpg",
     "static/media/brain.png": "/Sparkids/static/media/brain.63adb50f730c2bb1248e.png",
@@ -10,12 +11,12 @@
     "static/media/logo.png": "/Sparkids/static/media/logo.aa0c3ebb416c0b99795b.png",
     "static/media/opport2.jpg": "/Sparkids/static/media/opport2.f959eca956a1f88bb0d9.jpg",
     "index.html": "/Sparkids/index.html",
-    "main.fe0f49b5.css.map": "/Sparkids/static/css/main.fe0f49b5.css.map",
-    "main.f2387acf.js.map": "/Sparkids/static/js/main.f2387acf.js.map",
+    "main.84564a99.css.map": "/Sparkids/static/css/main.84564a99.css.map",
+    "main.114d8d17.js.map": "/Sparkids/static/js/main.114d8d17.js.map",
     "453.8cea8195.chunk.js.map": "/Sparkids/static/js/453.8cea8195.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe0f49b5.css",
-    "static/js/main.f2387acf.js"
+    "static/css/main.84564a99.css",
+    "static/js/main.114d8d17.js"
   ]
 }
