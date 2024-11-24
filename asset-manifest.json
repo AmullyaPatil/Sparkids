@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.84564a99.css",
-    "main.js": "/Sparkids/static/js/main.114d8d17.js",
+    "main.css": "/Sparkids/static/css/main.fc04243d.css",
+    "main.js": "/Sparkids/static/js/main.aed534d6.js",
     "static/js/453.8cea8195.chunk.js": "/Sparkids/static/js/453.8cea8195.chunk.js",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
     "static/media/opport3.jpg": "/Sparkids/static/media/opport3.0f09a60de878681930f1.jpg",
     "static/media/opport1.jpg": "/Sparkids/static/media/opport1.54f5ef5fc79b24ef4a8b.jpg",
+    "static/media/image4.png": "/Sparkids/static/media/image4.93f50a7a9619b2d0a24b.png",
+    "static/media/image7.png": "/Sparkids/static/media/image7.a7638faa032638b665d1.png",
+    "static/media/image2.png": "/Sparkids/static/media/image2.d6b3e3dfcab32f4f7360.png",
     "static/media/brain.png": "/Sparkids/static/media/brain.63adb50f730c2bb1248e.png",
+    "static/media/image1.png": "/Sparkids/static/media/image1.77f0d6cba3ce79e9e986.png",
+    "static/media/image5.png": "/Sparkids/static/media/image5.89535dd5de664476a236.png",
+    "static/media/image9.png": "/Sparkids/static/media/image9.18689f622b54cc7eea34.png",
+    "static/media/image10.png": "/Sparkids/static/media/image10.b1a1ed3584b85a7b9ec1.png",
+    "static/media/image3.png": "/Sparkids/static/media/image3.90717075ff21caa6ef16.png",
+    "static/media/image6.png": "/Sparkids/static/media/image6.2f1f5df5ccbefcced4a0.png",
+    "static/media/image8.png": "/Sparkids/static/media/image8.164ab075e3a2db7c689f.png",
     "static/media/person1.jpg": "/Sparkids/static/media/person1.6f05986e5e719d7adb09.jpg",
     "static/media/logo.png": "/Sparkids/static/media/logo.aa0c3ebb416c0b99795b.png",
     "static/media/opport2.jpg": "/Sparkids/static/media/opport2.f959eca956a1f88bb0d9.jpg",
     "index.html": "/Sparkids/index.html",
-    "main.84564a99.css.map": "/Sparkids/static/css/main.84564a99.css.map",
-    "main.114d8d17.js.map": "/Sparkids/static/js/main.114d8d17.js.map",
+    "main.fc04243d.css.map": "/Sparkids/static/css/main.fc04243d.css.map",
+    "main.aed534d6.js.map": "/Sparkids/static/js/main.aed534d6.js.map",
     "453.8cea8195.chunk.js.map": "/Sparkids/static/js/453.8cea8195.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84564a99.css",
-    "static/js/main.114d8d17.js"
+    "static/css/main.fc04243d.css",
+    "static/js/main.aed534d6.js"
   ]
 }
