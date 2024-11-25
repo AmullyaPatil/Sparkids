@@ -6,7 +6,7 @@ import Opportunity from '../components/opportunity';
 import Sight from '../components/sight';
 import Educator from '../components/educator';
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <div>
       <Header />
@@ -20,5 +20,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-
