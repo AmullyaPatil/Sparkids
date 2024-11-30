@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sparkids/static/css/main.a13fcbe7.css",
-    "main.js": "/Sparkids/static/js/main.b5ccb8a6.js",
+    "main.js": "/Sparkids/static/js/main.0737dc9e.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
@@ -56,11 +56,11 @@
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
     "main.a13fcbe7.css.map": "/Sparkids/static/css/main.a13fcbe7.css.map",
-    "main.b5ccb8a6.js.map": "/Sparkids/static/js/main.b5ccb8a6.js.map",
+    "main.0737dc9e.js.map": "/Sparkids/static/js/main.0737dc9e.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a13fcbe7.css",
-    "static/js/main.b5ccb8a6.js"
+    "static/js/main.0737dc9e.js"
   ]
 }
