@@ -1,16 +1,16 @@
 /* Page Container */
 .page-container {
-  max-width: 800px;
-  margin: 4rem 12rem;
+  margin: 12rem 12rem;
 }
 
 /* Tab Navigation (no box, above the content) */
 .tab-header {
-  display: flex;
   gap: 40px;
-  background: none;
-  border-bottom: 2px solid #eee;
-  margin-bottom: 1rem;
+      background: none;
+      border-bottom: 2px solid #eee;
+      margin-left: -15rem;
+      margin-bottom: -60px;
+      padding: 109px;
 }
 
 .tab-button {
@@ -36,12 +36,15 @@
 
 /* Box with Shadow for Content */
 .content-card {
-  background: #ffffff;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  width: 1152px;
+  padding: 3rem 5rem;
+  width: 1250px;
   height: 922px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-left:-150px;
+
 }
 
 /* Titles and Text */
