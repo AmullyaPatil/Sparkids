@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.30743b93.css",
-    "main.js": "/Sparkids/static/js/main.4a9663c2.js",
+    "main.css": "/Sparkids/static/css/main.33ff1d1e.css",
+    "main.js": "/Sparkids/static/js/main.c1f501c6.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
@@ -12,7 +12,9 @@
     "static/media/franchisesupport.png": "/Sparkids/static/media/franchisesupport.79294ed97da8eae258b7.png",
     "static/media/rubikcourse.png": "/Sparkids/static/media/rubikcourse.a987ff4bc0260c1d3739.png",
     "static/media/coursehandwriting.png": "/Sparkids/static/media/coursehandwriting.7a346291bbc54e645a5a.png",
+    "static/media/courseimg3.png": "/Sparkids/static/media/courseimg3.89ea7d50d0006820ea69.png",
     "static/media/courseimg1.png": "/Sparkids/static/media/courseimg1.71359c5ff4ca57988358.png",
+    "static/media/courseimg2.png": "/Sparkids/static/media/courseimg2.0ca4a2bb65a061b6a027.png",
     "static/media/coursevedic.png": "/Sparkids/static/media/coursevedic.942fa6cdc29613e7c732.png",
     "static/media/coursehero.png": "/Sparkids/static/media/coursehero.5475b4c916d1fded1122.png",
     "static/media/aboutusvision.png": "/Sparkids/static/media/aboutusvision.7555bfa853e13031fae4.png",
@@ -55,12 +57,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.30743b93.css.map": "/Sparkids/static/css/main.30743b93.css.map",
-    "main.4a9663c2.js.map": "/Sparkids/static/js/main.4a9663c2.js.map",
+    "main.33ff1d1e.css.map": "/Sparkids/static/css/main.33ff1d1e.css.map",
+    "main.c1f501c6.js.map": "/Sparkids/static/js/main.c1f501c6.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30743b93.css",
-    "static/js/main.4a9663c2.js"
+    "static/css/main.33ff1d1e.css",
+    "static/js/main.c1f501c6.js"
   ]
 }
