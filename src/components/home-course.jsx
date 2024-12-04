@@ -11,6 +11,8 @@ import courserate from "../Assets/home-img/course-rate.png";
 import courseLearnMore from "../Assets/home-img/course-learnmore.png";
 import learnmorebulb from "../Assets/home-img/learnmorebulb.png";
 
+import { useNavigate } from "react-router-dom";
+
 const CourseCard = ({ title, description, age, duration, levels, rating, image }) => {
   return (
     <div className="home-course-card">
@@ -52,6 +54,7 @@ const CourseCard = ({ title, description, age, duration, levels, rating, image }
 };
 
 const CourseList = () => {
+  const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const courseData = [
@@ -85,10 +88,29 @@ const CourseList = () => {
          </p>
         </div>
     <div className="home-course-list">
-      <h2 className="home-course-list-heading">Explore all  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.94869 16.2172L15.3837 2.78222M15.3837 2.78222L13.9695 14.0959M15.3837 2.78222L4.07001 4.19643" stroke="#F58634" stroke-width="3.14286" stroke-linecap="round"/>
-</svg>
-</h2>
+    <h2 className="home-course-list-heading">
+          <button
+            className="explore-btn"
+            onClick={() => navigate("/courses")}
+            aria-label="Explore all courses"
+          >
+            Explore all{" "}
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.94869 16.2172L15.3837 2.78222M15.3837 2.78222L13.9695 14.0959M15.3837 2.78222L4.07001 4.19643"
+                stroke="#F58634"
+                strokeWidth="3.14286"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+        </h2>
       <div className="home-course-card-slider-container">
         <div className="home-course-slider">
           {courseData.slice(currentIndex, currentIndex + 3).map((course, index) => (
@@ -121,9 +143,10 @@ const CourseList = () => {
 
   {/* Right Button */}
   <button
-    className="home-course--slider-button-right"
+    className="home-course-slider-button-right"
     onClick={nextSlide}
     disabled={currentIndex >= courseData.length - 3}
+    
   >
     <svg
       width="15"
