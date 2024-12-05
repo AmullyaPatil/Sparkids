@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import person from '../Assets/home-img/person1.jpg';
+import person from '../Assets/home-img/person.png';
 import brainleft from '../Assets/home-img/brain-img/brainleft.png';
 import brainright from '../Assets/home-img/brain-img/brainright.png';
 import bulb from '../Assets/home-img/brain-img/bulb.png';
