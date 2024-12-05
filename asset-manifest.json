@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.30e0eb54.css",
-    "main.js": "/Sparkids/static/js/main.23951929.js",
+    "main.css": "/Sparkids/static/css/main.a31a1b64.css",
+    "main.js": "/Sparkids/static/js/main.28e48706.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
@@ -49,6 +49,7 @@
     "static/media/quesmem.png": "/Sparkids/static/media/quesmem.5e515974a0106745f6aa.png",
     "static/media/quesmem6.png": "/Sparkids/static/media/quesmem6.58d5b6458417bac70b8c.png",
     "static/media/quesmem3.png": "/Sparkids/static/media/quesmem3.1ade99785ed6c60e478f.png",
+    "static/media/watermark.png": "/Sparkids/static/media/watermark.9cba50d162bed2d46543.png",
     "static/media/logo.png": "/Sparkids/static/media/logo.aa0c3ebb416c0b99795b.png",
     "static/media/bgofimage.png": "/Sparkids/static/media/bgofimage.42a280005433934a278e.png",
     "static/media/opport2.jpg": "/Sparkids/static/media/opport2.f959eca956a1f88bb0d9.jpg",
@@ -57,12 +58,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.30e0eb54.css.map": "/Sparkids/static/css/main.30e0eb54.css.map",
-    "main.23951929.js.map": "/Sparkids/static/js/main.23951929.js.map",
+    "main.a31a1b64.css.map": "/Sparkids/static/css/main.a31a1b64.css.map",
+    "main.28e48706.js.map": "/Sparkids/static/js/main.28e48706.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30e0eb54.css",
-    "static/js/main.23951929.js"
+    "static/css/main.a31a1b64.css",
+    "static/js/main.28e48706.js"
   ]
 }
