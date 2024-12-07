@@ -5,7 +5,6 @@
   align-items: center;
   padding: 30px;
   background: linear-gradient(to bottom, #fff, #fdf4f2);
-  font-family: 'Poppins', sans-serif;
 }
 
 .hero-content {
@@ -101,11 +100,11 @@
 .hero-stats .stats-images {
   position: relative;
   width:50px;
-  height: 50px; /* This makes the parent container a reference point */
+  height: 50px;
 }
 
 .hero-stats img {
-  position: absolute;  /* Position images absolutely within the parent */
+  position: absolute;  
   width: 50px;  
   height:50px;
 }
@@ -167,8 +166,8 @@
 /* Hero Image Layout */
 .hero-image {
   position: relative;
-  width: 600px; /* Adjust the container size */
-  height: 600px; /* Adjust the container size */
+  width: 600px; 
+  height: 600px; 
   margin-left: 10px;
   padding-right: 90px;
 }
@@ -184,8 +183,6 @@
   align-items: center;
 }
 
-/* Left Brain and Right Brain Images */
-/* Left Brain and Right Brain Images */
 .brain-right {
   position: absolute;
   width: 163.14px;
@@ -267,6 +264,7 @@
   width:518.86px;
   height: 512.81px;
 }
+
 /* Keyframes for Sideways Animation */
 @keyframes slideInLeft {
   0% {
@@ -331,14 +329,290 @@
 
 /* Image Section Styles */
 .image-partner {
-  margin-top: 20px; /* Adjust based on layout */
+  margin-top: 20px; 
   display: flex;
   justify-content: flex-start;
 }
 
 .partner-image {
-  width: 704px; /* Adjust the size of the image */
+  width: 704px; 
   height: 46px;
   margin-left: -64px; 
-  margin-top:-76px;/* Adjust space between text */
+  margin-top:-76px;
+}
+
+
+
+/* Media Query for Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  
+  .hero-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .hero-content {
+    max-width: 600px;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+
+  .hero-stats .stats-text {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 350px;
+    margin-left: 0;
+    padding-right: 0;
+  }
+
+  .brain-layout {
+    width: 100%;
+    height: 350px;
+  }
+
+  .brain-right,
+  .brain-left {
+    width: 120px;
+    height: 300px;
+  }
+
+  .brain-icon {
+    width: 35px;
+    height: auto;
+  }
+
+  .partner-image {
+    width: 500px;
+    height: auto;
+    margin-left: -30px;
+    margin-top: -50px;
+  }
+}
+
+/* mobile view */
+
+@media (max-width: 480px) {
+
+  .brain-layout {
+    width: 100%;
+    height: 350px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+  }
+ 
+  /* Hero Image at the Top */
+  .hero-image {
+    order: 1;
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
+  /* Hero Content Below the Image */
+  .hero-content {
+    order: 2; 
+    text-align: center; 
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .hero-heading span {
+    font-size: 28px;
+    color: #f58634;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+
+  .hero-buttons {
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 15px; 
+  }
+
+  .explore-btn,
+  .opportunity-btn {
+    width: 200px; 
+    height: 50px;
+  }
+  
+  .hero-stats {
+    margin-top: -20px;
+    flex-direction: row;
+  }
+  .hero-stats .stats-text h1{
+    margin-left: 180px;
+    font-size: 20px;
+}
+
+.hero-stats .stats-text .highlight{
+  margin-left: 0;
+  font-size: 16px;
+}
+    /* Brain Layout Container */
+    .brain-layout {
+      position: relative;
+      width: 100%; 
+      height: 350px;
+      top: -20px; 
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center; 
+      align-items: center;
+      padding: 20px 0; 
+    }
+  
+    .brain-left,
+    .brain-right {
+      width: 100px; 
+      height: auto; 
+      top: 0; 
+    }
+  
+    .brain-left {
+      left: 97px; 
+      top:70px;
+    }
+  
+    .brain-right {
+      right: 90px;
+      top:70px; 
+    }
+  
+    /* Adjust Hover Effect */
+    .brain-left:hover,
+    .brain-right:hover {
+      transform: translateY(-3%) scale(1.05); 
+    }
+  
+    /* Brain Icons */
+    .brain-icon {
+      width: 35px; 
+      height: auto; 
+      opacity: 1; 
+    }
+  
+   
+    .bulb {
+      width: 50px;
+      height: auto;
+      top: 150px;
+      left: 30px; 
+    }
+  
+    .symbol {
+      width: 40px;
+      height: auto;
+      bottom: 90px;
+      left: 50px;
+    }
+  
+    .puzzle1 {
+      width: 50px;
+      height: auto;
+      top: 150px;
+      right: 35px;
+    }
+  
+    .puzzle2 {
+      top: 55px;
+      left: 100px;
+      width: 60px;
+      height: auto;
+    }
+  
+    .pencil {
+      bottom: 85px;
+      right: 60px;
+      width: 80px;
+      height: auto;
+    }
+  
+    .gear {
+      width: 350px; 
+      height: 350px; 
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .partner-image {
+      width: 260px;
+      height: 20px;
+      margin-left: 60px;
+      margin-top: -55px;
+    }
+  
+    @keyframes slideInRight {
+      0% {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+  
+
+
+  
 }
