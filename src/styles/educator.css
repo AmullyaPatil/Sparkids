@@ -98,9 +98,7 @@ transform: translateY(-10px);
   }
 
   @media (max-width: 768px) {
-    .educator-section{
-      padding: 1rem 1rem;
-    }
+    
     .educator-content {
       flex-direction: row;
       align-items: center;
