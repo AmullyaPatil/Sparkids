@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sparkids/static/css/main.185c8a6e.css",
-    "main.js": "/Sparkids/static/js/main.a5d22e5e.js",
+    "main.js": "/Sparkids/static/js/main.9cb9c4df.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
@@ -19,9 +19,8 @@
     "static/media/coursehero.png": "/Sparkids/static/media/coursehero.5475b4c916d1fded1122.png",
     "static/media/aboutushero.png": "/Sparkids/static/media/aboutushero.0af0c655d8ce4056e818.png",
     "static/media/franchisesuccess1.png": "/Sparkids/static/media/franchisesuccess1.7e656c6ccbafda2a4347.png",
+    "static/media/vision3.png": "/Sparkids/static/media/vision3.a02b2bb7fa6a34055e34.png",
     "static/media/vision2.png": "/Sparkids/static/media/vision2.cf931449ad9903d9130d.png",
-    "static/media/vision3.png": "/Sparkids/static/media/vision3.cf931449ad9903d9130d.png",
-    "static/media/visionbg.png": "/Sparkids/static/media/visionbg.cf931449ad9903d9130d.png",
     "static/media/opport3.jpg": "/Sparkids/static/media/opport3.0f09a60de878681930f1.jpg",
     "static/media/opport1.jpg": "/Sparkids/static/media/opport1.54f5ef5fc79b24ef4a8b.jpg",
     "static/media/vision1.png": "/Sparkids/static/media/vision1.48a5b045d0b17035bd54.png",
@@ -62,11 +61,11 @@
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
     "main.185c8a6e.css.map": "/Sparkids/static/css/main.185c8a6e.css.map",
-    "main.a5d22e5e.js.map": "/Sparkids/static/js/main.a5d22e5e.js.map",
+    "main.9cb9c4df.js.map": "/Sparkids/static/js/main.9cb9c4df.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.185c8a6e.css",
-    "static/js/main.a5d22e5e.js"
+    "static/js/main.9cb9c4df.js"
   ]
 }
