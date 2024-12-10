@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.d42ba9a6.css",
-    "main.js": "/Sparkids/static/js/main.4b13ac2c.js",
+    "main.css": "/Sparkids/static/css/main.185c8a6e.css",
+    "main.js": "/Sparkids/static/js/main.a5d22e5e.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
@@ -17,11 +17,14 @@
     "static/media/courseimg2.png": "/Sparkids/static/media/courseimg2.0ca4a2bb65a061b6a027.png",
     "static/media/coursevedic.png": "/Sparkids/static/media/coursevedic.942fa6cdc29613e7c732.png",
     "static/media/coursehero.png": "/Sparkids/static/media/coursehero.5475b4c916d1fded1122.png",
-    "static/media/aboutusvision.png": "/Sparkids/static/media/aboutusvision.7555bfa853e13031fae4.png",
     "static/media/aboutushero.png": "/Sparkids/static/media/aboutushero.0af0c655d8ce4056e818.png",
     "static/media/franchisesuccess1.png": "/Sparkids/static/media/franchisesuccess1.7e656c6ccbafda2a4347.png",
+    "static/media/vision2.png": "/Sparkids/static/media/vision2.cf931449ad9903d9130d.png",
+    "static/media/vision3.png": "/Sparkids/static/media/vision3.cf931449ad9903d9130d.png",
+    "static/media/visionbg.png": "/Sparkids/static/media/visionbg.cf931449ad9903d9130d.png",
     "static/media/opport3.jpg": "/Sparkids/static/media/opport3.0f09a60de878681930f1.jpg",
     "static/media/opport1.jpg": "/Sparkids/static/media/opport1.54f5ef5fc79b24ef4a8b.jpg",
+    "static/media/vision1.png": "/Sparkids/static/media/vision1.48a5b045d0b17035bd54.png",
     "static/media/image4.png": "/Sparkids/static/media/image4.93f50a7a9619b2d0a24b.png",
     "static/media/image7.png": "/Sparkids/static/media/image7.a7638faa032638b665d1.png",
     "static/media/img.png": "/Sparkids/static/media/img.8919c2d7bdc71a119e30.png",
@@ -58,12 +61,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.d42ba9a6.css.map": "/Sparkids/static/css/main.d42ba9a6.css.map",
-    "main.4b13ac2c.js.map": "/Sparkids/static/js/main.4b13ac2c.js.map",
+    "main.185c8a6e.css.map": "/Sparkids/static/css/main.185c8a6e.css.map",
+    "main.a5d22e5e.js.map": "/Sparkids/static/js/main.a5d22e5e.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42ba9a6.css",
-    "static/js/main.4b13ac2c.js"
+    "static/css/main.185c8a6e.css",
+    "static/js/main.a5d22e5e.js"
   ]
 }
