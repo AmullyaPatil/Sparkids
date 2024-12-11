@@ -212,7 +212,7 @@
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 376px) {
     .abt-question-section {
       height: 280px;
       width: 375px;
