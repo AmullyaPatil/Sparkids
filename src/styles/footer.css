@@ -185,12 +185,12 @@
     }
 
     .footer-section h3 {
-        font-size: 16px;
+        font-size: 26px;
     }
 
     .footer-section p,
     .footer-section ul li a {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .subscribe input {
@@ -223,11 +223,11 @@
     }
 
     .footer-section h3 {
-        font-size: 14px;
+        font-size: 26px;
     }
 
     .footer-section ul li a {
-        font-size: 11px;
+        font-size: 16px;
     }
 
     .subscribe input,
@@ -257,11 +257,11 @@
     }
 
     .footer-section h3 {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .footer-section ul li a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .subscribe input,
