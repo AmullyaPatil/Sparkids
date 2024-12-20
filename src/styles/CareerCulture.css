@@ -39,7 +39,7 @@
 .career-culture-content {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
-    gap: 12rem;
+    gap: 10rem;
     width: 1000px;
     margin-top: 2rem;
 }
