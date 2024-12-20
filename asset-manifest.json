@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.10e4e78e.css",
-    "main.js": "/Sparkids/static/js/main.72d9a462.js",
+    "main.css": "/Sparkids/static/css/main.43979db7.css",
+    "main.js": "/Sparkids/static/js/main.21ef0650.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
@@ -9,6 +9,7 @@
     "static/media/mission.png": "/Sparkids/static/media/mission.b5d06319756f9114ad6a.png",
     "static/media/readingcourse.png": "/Sparkids/static/media/readingcourse.484fa1659e85b010de0f.png",
     "static/media/abacuscourse.png": "/Sparkids/static/media/abacuscourse.b8a4e3a9bc2feaacbc78.png",
+    "static/media/img.png": "/Sparkids/static/media/img.057080d0d06bca8dba3b.png",
     "static/media/franchisesupport.png": "/Sparkids/static/media/franchisesupport.79294ed97da8eae258b7.png",
     "static/media/rubikcourse.png": "/Sparkids/static/media/rubikcourse.a987ff4bc0260c1d3739.png",
     "static/media/coursehandwriting.png": "/Sparkids/static/media/coursehandwriting.7a346291bbc54e645a5a.png",
@@ -26,7 +27,6 @@
     "static/media/vision1.png": "/Sparkids/static/media/vision1.48a5b045d0b17035bd54.png",
     "static/media/image4.png": "/Sparkids/static/media/image4.93f50a7a9619b2d0a24b.png",
     "static/media/image7.png": "/Sparkids/static/media/image7.a7638faa032638b665d1.png",
-    "static/media/img.png": "/Sparkids/static/media/img.8919c2d7bdc71a119e30.png",
     "static/media/image2.png": "/Sparkids/static/media/image2.d6b3e3dfcab32f4f7360.png",
     "static/media/team3.png": "/Sparkids/static/media/team3.ea87bcc59c4485554195.png",
     "static/media/image1.png": "/Sparkids/static/media/image1.77f0d6cba3ce79e9e986.png",
@@ -46,6 +46,7 @@
     "static/media/brainleft.png": "/Sparkids/static/media/brainleft.b10f52ff51fac2d3183a.png",
     "static/media/quesmem4.png": "/Sparkids/static/media/quesmem4.f1f16c40deb613df7055.png",
     "static/media/quesmem2.png": "/Sparkids/static/media/quesmem2.744d191bd0cc2460de42.png",
+    "static/media/dots.png": "/Sparkids/static/media/dots.637fa578c5c317a18f1f.png",
     "static/media/quesmem5.png": "/Sparkids/static/media/quesmem5.704f67e7534ebb42b033.png",
     "static/media/quesmem.png": "/Sparkids/static/media/quesmem.5e515974a0106745f6aa.png",
     "static/media/quesmem6.png": "/Sparkids/static/media/quesmem6.58d5b6458417bac70b8c.png",
@@ -60,12 +61,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.10e4e78e.css.map": "/Sparkids/static/css/main.10e4e78e.css.map",
-    "main.72d9a462.js.map": "/Sparkids/static/js/main.72d9a462.js.map",
+    "main.43979db7.css.map": "/Sparkids/static/css/main.43979db7.css.map",
+    "main.21ef0650.js.map": "/Sparkids/static/js/main.21ef0650.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10e4e78e.css",
-    "static/js/main.72d9a462.js"
+    "static/css/main.43979db7.css",
+    "static/js/main.21ef0650.js"
   ]
 }
