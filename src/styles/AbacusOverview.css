@@ -134,10 +134,21 @@
   color: #f58634;
 }
 .dropdown-subtitle {
-  color: #343434;
+  color: #f58634;
   font-weight: bold;
   margin-bottom: 1rem;
 }
+.dropdown-course-info{
+  margin-bottom: 1rem;
+  color: #455a64;
+  font-size: 22px;
+  font-family: geologica;
+}
+  .dropdown-course-info span {
+    
+  color: #f58634;
+  }
+
 .details-content {
   font-family: Arial, sans-serif;
   color: #333;
@@ -156,23 +167,26 @@
 
 .main-title {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-family: lilita one;
   color: #f58634;
   margin-bottom: 1rem;
 }
 
 .sub-title {
-  font-size: 1.3rem;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   color: #455a64;
+  font-family: lilita one;
 }
 
 .brain-activation-list,
-.key-skills-list {
+.key-skills-list{
   list-style: none;
   padding: 0;
+  font-size: 22px;
+  font-family: geologica;
   margin: 1rem 0;
 }
 
@@ -182,7 +196,7 @@
   line-height: 1.6;
 }
 
-.key-skills-list strong {
+.key-skills-list span {
   color: #f58634;
 }
 
