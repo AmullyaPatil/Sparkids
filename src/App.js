@@ -1,4 +1,7 @@
 import React from "react";
+import "./App.css";
+import flameCursor from "./Assets/flame.png";
+import hoverCursor from "./Assets/hover.png"; 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -20,6 +23,7 @@ function App() {
     <Router>
         <Header /> 
         <Scrolltotop />
+        <div className="custom-cursor" style={{ cursor: `url(${flameCursor}), auto` }}></div>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

@@ -39,7 +39,7 @@
 .content-card {
   padding: 3rem 5rem;
   width: 1250px;
-  height: 922px;
+  height: auto;
     border: 2px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -88,12 +88,102 @@
   font-family: geologica;
   margin-bottom: 10px;
   font-size: 24px;
-  color: #343434;
+  color: #455a64;
 }
 
 .benefits-list img {
   width: 28px;
   height: 28px;
+}
+.dropdown-item {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.dropdown-header {
+  display: flex  ;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px;
+      background: rgb(245 134 52 / 13%);
+      cursor: pointer;
+      border-radius: 20px;
+}
+
+.dropdown-header h3 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Geologica';
+  font-weight: bold;
+}
+
+.dropdown-header span {
+  font-size: 1.5rem;
+  color: #f58634;
+}
+
+.dropdown-content {
+  padding: 1rem;
+  background: #fff;
+  font-size: 24px;
+  font-family: 'Geologica';
+  color: #455a64;
+}
+.dropdown-content p span{
+  font-family: 'Geologica';
+  color: #f58634;
+}
+.dropdown-subtitle {
+  color: #343434;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.details-content {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.level-detail span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f58634;
+}
+.level-detail {
+  color: #455a64;
+}
+.level-detail li {
+  line-height: 30px;
+}
+
+.main-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f58634;
+  margin-bottom: 1rem;
+}
+
+.sub-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #455a64;
+}
+
+.brain-activation-list,
+.key-skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.brain-activation-list li,
+.key-skills-list li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.key-skills-list strong {
+  color: #f58634;
 }
 
 
