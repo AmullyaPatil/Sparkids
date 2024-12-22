@@ -466,7 +466,7 @@ const Overview = () => {
           <div className="opportunities-content">
             <h2 className="main-title">Long-Term Benefits for Students</h2>
             <h4 className="dropdown-subtitle">1. Academic Excellence </h4>
-            <ul>
+            <ul className="dropdown-course-info">
               <li>
               Abacus training enhances mathematical abilities, directly improving performance in math and science subjects.
               </li>
@@ -475,7 +475,7 @@ const Overview = () => {
               </li>
             </ul>
             <h4 className="dropdown-subtitle">2. Competitive Edge </h4>
-            <ul>
+            <ul className="dropdown-course-info">
               <li>
               Prepares students for prestigious mental math competitions, such as: <br />
               Abacus Olympiads
@@ -486,7 +486,7 @@ const Overview = () => {
               </li>
             </ul>
             <h4 className="dropdown-subtitle">3. Lifelong Skills </h4>
-            <ul>
+            <ul className="dropdown-course-info">
               <li>
               The program focuses on skills that extend beyond academics and into every aspect of life, including:
               </li>
@@ -495,7 +495,7 @@ const Overview = () => {
               </li>
             </ul>
             <h4 className="dropdown-subtitle">4. Career Preparation </h4>
-            <ul>
+            <ul className="dropdown-course-info">
               <li>
               Students gain transferable skills that are valuable for future careers, particularly in fields requiring analytical thinking,
                such as engineering, finance, and technology.

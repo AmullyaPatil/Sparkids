@@ -1,10 +1,8 @@
-/* Page Container */
 .page-container {
   margin: 12rem 12rem;
   margin-bottom: 20px;
 }
 
-/* Tab Navigation (no box, above the content) */
 .tab-header {
   gap: 40px;
       background: none;
@@ -137,6 +135,7 @@
   color: #f58634;
   font-weight: bold;
   margin-bottom: 1rem;
+  font-size: 22px;
 }
 .dropdown-course-info{
   margin-bottom: 1rem;
@@ -166,7 +165,7 @@
 }
 
 .main-title {
-  font-size: 1.5rem;
+  font-size: 30px;
   font-family: lilita one;
   color: #f58634;
   margin-bottom: 1rem;
@@ -199,15 +198,152 @@
 .key-skills-list span {
   color: #f58634;
 }
-
-
-/* Responsive Design */
+.opportunity-list{
+  list-style: none;
+  padding: 0;
+  font-size: 22px;
+  font-family: geologica;
+  margin: 1rem 0;
+}
 @media (max-width: 768px) {
+  .page-container {
+    margin: 4rem 2rem;
+  }
+
+  .tab-header {
+    padding: 20px;
+    margin-left: 0;
+    margin-bottom: -30px;
+    gap: 20px;
+  }
+
+  .tab-button {
+    font-size: 18px;
+    padding: 0.5rem;
+  }
+
+  .content-card {
+    width: auto;
+    padding: 2rem;
+    margin-left: 0;
+  }
+}
+
+/* For screens up to 425px */
+@media (max-width: 425px) {
+  .page-container {
+    margin: 2rem 1rem;
+  }
+
+  .tab-header {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .tab-button {
+    font-size: 16px;
+    padding: 0.4rem;
+  }
+
+  .content-card {
+    padding: 1.5rem;
+    margin-left: 0;
+  }
+
+  .benefits-list li {
+    font-size: 20px;
+    gap: 8px;
+  }
+
+  .dropdown-header h3 {
+    font-size: 20px;
+  }
+
+  .dropdown-content {
+    font-size: 20px;
+  }
+
+  .level-detail span {
+    font-size: 20px;
+  }
+}
+
+/* For screens up to 375px */
+@media (max-width: 375px) {
+  .page-container {
+    margin: 1.5rem 0.5rem;
+  }
+
+  .tab-header {
+    padding: 10px;
+    gap: 10px;
+  }
+
   .tab-button {
     font-size: 14px;
+    padding: 0.3rem;
   }
 
   .content-card {
     padding: 1rem;
+  }
+
+  .benefits-list li {
+    font-size: 18px;
+    gap: 6px;
+  }
+
+  .dropdown-header h3 {
+    font-size: 18px;
+  }
+
+  .dropdown-content {
+    font-size: 18px;
+  }
+
+  .level-detail span {
+    font-size: 18px;
+  }
+}
+
+/* For screens up to 320px */
+@media (max-width: 320px) {
+  .page-container {
+    margin: 1rem 0.5rem;
+  }
+  .description {
+    font-size: 14px;
+    width: 100%;
+}
+
+  .tab-header {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .tab-button {
+    font-size: 12px;
+    padding: 0.2rem;
+  }
+
+  .content-card {
+    padding: 0.8rem;
+  }
+
+  .benefits-list li {
+    font-size: 16px;
+    gap: 5px;
+  }
+
+  .dropdown-header h3 {
+    font-size: 16px;
+  }
+
+  .dropdown-content {
+    font-size: 16px;
+  }
+
+  .level-detail span {
+    font-size: 16px;
   }
 }
