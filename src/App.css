@@ -294,7 +294,7 @@
   .reading-image,
   .cube-image {
     display: flex;
-    margin-right: 25px;
+    margin-right: 61px;
   }
 }
 @media (max-width: 321px) {
