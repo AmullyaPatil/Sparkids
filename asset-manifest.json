@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.8a13141e.css",
-    "main.js": "/Sparkids/static/js/main.3eb0afd7.js",
+    "main.css": "/Sparkids/static/css/main.bdf96d90.css",
+    "main.js": "/Sparkids/static/js/main.6cc8078c.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
@@ -40,6 +40,8 @@
     "static/media/image3.png": "/Sparkids/static/media/image3.90717075ff21caa6ef16.png",
     "static/media/image6.png": "/Sparkids/static/media/image6.2f1f5df5ccbefcced4a0.png",
     "static/media/image8.png": "/Sparkids/static/media/image8.164ab075e3a2db7c689f.png",
+    "static/media/flame.png": "/Sparkids/static/media/flame.5ba17c16da6802c271fd.png",
+    "static/media/hover.png": "/Sparkids/static/media/hover.38baa8728a92d2804b9c.png",
     "static/media/missionbg.png": "/Sparkids/static/media/missionbg.6f801c26f9f9a0ab9c19.png",
     "static/media/careerhero2.png": "/Sparkids/static/media/careerhero2.06c3846ab4b32f111b6e.png",
     "static/media/careerhero1.png": "/Sparkids/static/media/careerhero1.7504ac617c0fed015e34.png",
@@ -66,12 +68,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.8a13141e.css.map": "/Sparkids/static/css/main.8a13141e.css.map",
-    "main.3eb0afd7.js.map": "/Sparkids/static/js/main.3eb0afd7.js.map",
+    "main.bdf96d90.css.map": "/Sparkids/static/css/main.bdf96d90.css.map",
+    "main.6cc8078c.js.map": "/Sparkids/static/js/main.6cc8078c.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a13141e.css",
-    "static/js/main.3eb0afd7.js"
+    "static/css/main.bdf96d90.css",
+    "static/js/main.6cc8078c.js"
   ]
 }
