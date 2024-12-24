@@ -33,16 +33,20 @@
   color: #455A64;
   font-weight: 400;
   font-family: Geologica;
-  margin-top: 0;
   margin-bottom: 45px; 
   position: relative;
-  top: -5px;
   margin-left: -426px;
-  margin-right: 692px;
+  margin-right: 678px;
 }
 
-.careerhero-pagename span {
+.careerhero-pagename  span a{
   color: #f58634;
+}
+
+.careerhero-pagename  a {
+  text-decoration: none;
+  color:  #455a64;
+  margin: 0 5px;
 }
 
 .careerhero-subheadline {
