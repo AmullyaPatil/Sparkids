@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.b0d5cee2.css",
-    "main.js": "/Sparkids/static/js/main.fef142c2.js",
+    "main.css": "/Sparkids/static/css/main.205deec1.css",
+    "main.js": "/Sparkids/static/js/main.1173205d.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
+    "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
     "static/media/educators.png": "/Sparkids/static/media/educators.dfb47cc63dc4e3b9ad63.png",
     "static/media/aboutusculture.png": "/Sparkids/static/media/aboutusculture.b1ceef5aae0e15237754.png",
     "static/media/mission.png": "/Sparkids/static/media/mission.b5d06319756f9114ad6a.png",
     "static/media/readingcourse.png": "/Sparkids/static/media/readingcourse.484fa1659e85b010de0f.png",
     "static/media/abacuscourse.png": "/Sparkids/static/media/abacuscourse.b8a4e3a9bc2feaacbc78.png",
-    "static/media/img.png": "/Sparkids/static/media/img.057080d0d06bca8dba3b.png",
     "static/media/franchisesupport.png": "/Sparkids/static/media/franchisesupport.79294ed97da8eae258b7.png",
     "static/media/careerhero.png": "/Sparkids/static/media/careerhero.8b805b417a520065eb31.png",
     "static/media/rubikcourse.png": "/Sparkids/static/media/rubikcourse.a987ff4bc0260c1d3739.png",
@@ -66,12 +66,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.b0d5cee2.css.map": "/Sparkids/static/css/main.b0d5cee2.css.map",
-    "main.fef142c2.js.map": "/Sparkids/static/js/main.fef142c2.js.map",
+    "main.205deec1.css.map": "/Sparkids/static/css/main.205deec1.css.map",
+    "main.1173205d.js.map": "/Sparkids/static/js/main.1173205d.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0d5cee2.css",
-    "static/js/main.fef142c2.js"
+    "static/css/main.205deec1.css",
+    "static/js/main.1173205d.js"
   ]
 }
