@@ -45,32 +45,18 @@ const ContactForm = () => {
             9:00 AM to 5:30 PM
           </p>
           <a href="#map" className="navigate-link">Navigate to head branch</a>
-          <a href="#map" className="navigate-link">Navigate to head branch</a>
-<div className="map">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093785!2d144.96305791531665!3d-37.81410797975186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d9b7b78a9b0!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1635828576584!5m2!1sen!2sau"
-    width="100%"
-    height="300"
-    style={{ border: 0, borderRadius: '5px' }}
-    allowFullScreen=""
-    loading="lazy"
-    title="Google Map"
-  ></iframe>
-</div>
-
-
+          <div className="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093785!2d144.96305791531665!3d-37.81410797975186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d9b7b78a9b0!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1635828576584!5m2!1sen!2sau"
+              width="100%"
+              height="300"
+              style={{ border: 0, borderRadius: '5px' }}
+              allowFullScreen=""
+              loading="lazy"
+              title="Google Map"
+            ></iframe>
+          </div>
         </div>
-      </div>
-
-      {/* Footer Section */}
-      <div className="contact-footer">
-        <p>Follow Us for Updates and Inspiring Stories!</p>
-        <div className="social-links">
-          <a href="#facebook">Facebook</a>
-          <a href="#linkedin">Linkedin</a>
-          <a href="#instagram">Instagram</a>
-        </div>
-        <p>Every great mind was once a curious child. Let’s spark that curiosity together!</p>
       </div>
     </div>
   );

@@ -170,8 +170,15 @@
 
 .contact-footer p {
     margin: 10px 0;
-    font-size: 1rem;
-    color: #666;
+    font-size: 24px;
+    color: #F58634;
+    font-family: 'Geologica';
+}
+.contact-footer h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #455a64;
+    font-family: 'Geologica';
 }
 
 .contact-footer .social-links {
