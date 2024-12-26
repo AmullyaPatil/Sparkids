@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.248b0cb2.css",
-    "main.js": "/Sparkids/static/js/main.50916b63.js",
+    "main.css": "/Sparkids/static/css/main.2708aadd.css",
+    "main.js": "/Sparkids/static/js/main.6c2279e6.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
@@ -20,7 +20,10 @@
     "static/media/coursevedic.png": "/Sparkids/static/media/coursevedic.942fa6cdc29613e7c732.png",
     "static/media/coursehero.png": "/Sparkids/static/media/coursehero.5475b4c916d1fded1122.png",
     "static/media/aboutushero.png": "/Sparkids/static/media/aboutushero.0af0c655d8ce4056e818.png",
+    "static/media/media2.png": "/Sparkids/static/media/media2.8c0b2b899f861922a291.png",
     "static/media/franchisesuccess1.png": "/Sparkids/static/media/franchisesuccess1.7e656c6ccbafda2a4347.png",
+    "static/media/media1.png": "/Sparkids/static/media/media1.02bd9cd04bc73ff02cdd.png",
+    "static/media/media3.png": "/Sparkids/static/media/media3.cc2873ddf646d76e0dc6.png",
     "static/media/vision3.png": "/Sparkids/static/media/vision3.a02b2bb7fa6a34055e34.png",
     "static/media/vision2.png": "/Sparkids/static/media/vision2.cf931449ad9903d9130d.png",
     "static/media/opport3.jpg": "/Sparkids/static/media/opport3.0f09a60de878681930f1.jpg",
@@ -68,12 +71,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.248b0cb2.css.map": "/Sparkids/static/css/main.248b0cb2.css.map",
-    "main.50916b63.js.map": "/Sparkids/static/js/main.50916b63.js.map",
+    "main.2708aadd.css.map": "/Sparkids/static/css/main.2708aadd.css.map",
+    "main.6c2279e6.js.map": "/Sparkids/static/js/main.6c2279e6.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.248b0cb2.css",
-    "static/js/main.50916b63.js"
+    "static/css/main.2708aadd.css",
+    "static/js/main.6c2279e6.js"
   ]
 }
