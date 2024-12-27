@@ -1,0 +1,204 @@
+/* General Container */
+.gallery-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header */
+  .gallery-header {
+    margin-bottom: 20px;
+    font-family: 'Geologica';    
+    font-size: 24px;
+  }
+  
+  .gallery-header .subheading {
+    color: #F58634;
+    margin: 0;
+    font-family: 'Geologica';    
+    font-size: 24px;
+  }
+  
+  .gallery-header .heading {
+    color: #455A64;
+    margin: 5px 0;
+    font-family: 'Geologica';    
+    font-size: 24px;
+  }
+  
+  /* Buttons */
+  .gallery-buttons {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .gallery-buttons button {
+    padding: 8px 16px;
+    width: 168px;
+    border: 2px solid #455A64;
+    border-radius: 24px;
+    color: #455A64;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: geologica;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gallery-buttons button.active,
+  .gallery-buttons button:hover {
+    color: #F58634;
+    border: 1px solid #F58634;
+  }
+  
+  /* Flexbox Grids */
+  .flex-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Image Styling */
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    flex: 0 0 auto;
+  }
+
+  .gallery-item img {
+    width: 180px; 
+    height: 270px; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .gallery-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery-item:nth-child(1) {
+    width: 172px;
+    height: 258px;
+  }
+    .gallery-item:nth-child(4) {
+        width: 180px;
+        height: 280px;
+    }
+    .gallery-item:nth-child(5) {
+        width: 128px;
+        height: 215px;
+    }
+    .gallery-item:nth-child(6) {
+        width: 128px;
+        height: 171px;
+    }
+    
+    .gallery-item:nth-child(7) {
+        width: 185px;
+        height: 260px;
+    }
+    
+   
+
+  .offset-up {
+    margin-top: -10px;
+  }
+  
+  .offset-down {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .gallery-item img {
+      width: 100px;
+      height: 150px;
+    }
+  
+    .offset-up {
+      margin-top: -5px;
+    }
+  
+    .offset-down {
+      margin-top: 5px;
+    }
+    .gallery-buttons {
+        justify-content: center; /* Center buttons on smaller screens */
+        margin-left: 0;
+      }
+    
+      .gallery-buttons button {
+        width: 140px; /* Slightly smaller width */
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-item img {
+      width: 80px;
+      height: 120px;
+    }
+  
+    .offset-up {
+      margin-top: -3px;
+    }
+  
+    .offset-down {
+      margin-top: 3px;
+    }
+  }
+  @media (max-width: 425px) {
+    .gallery-buttons {
+      gap: 8px; /* Reduce the gap between buttons */
+      justify-content: center;
+    }
+  
+    .gallery-buttons button {
+      width: 120px; /* Even smaller width */
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  }
+
+@media (max-width: 425px) {
+    .gallery-buttons {
+      gap: 8px; /* Reduce the gap between buttons */
+      justify-content: center;
+    }
+  
+    .gallery-buttons button {
+      width: 120px; /* Even smaller width */
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .gallery-buttons {
+      gap: 6px;
+      justify-content: center;
+    }
+  
+    .gallery-buttons button {
+      width: 100px;
+      padding: 4px 8px;
+      font-size: 11px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .gallery-buttons {
+      gap: 4px;
+      justify-content: center;
+    }
+  
+    .gallery-buttons button {
+      width: 90px; /* Smallest width */
+      padding: 3px 6px;
+      font-size: 10px;
+    }
+  }
