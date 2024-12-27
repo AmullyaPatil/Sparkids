@@ -5,12 +5,14 @@ import { Link } from "react-router-dom";
 import Insighthero from '../components/InsightHero';
 import Gallery from '../components/InsightGallery';
 import Achievement from '../components/InsightAchievement';
+import Carousel from '../components/InsightJourney';
 export const Insight = () => {
     return (
       <div>
         <Insighthero />
         <Gallery/>
         <Achievement />
+        <Carousel />
       </div>
     );
   };
