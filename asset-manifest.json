@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.d30a2ffc.css",
-    "main.js": "/Sparkids/static/js/main.14bfbb77.js",
+    "main.css": "/Sparkids/static/css/main.352eda10.css",
+    "main.js": "/Sparkids/static/js/main.a65aac27.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
@@ -73,12 +73,12 @@
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "index.html": "/Sparkids/index.html",
-    "main.d30a2ffc.css.map": "/Sparkids/static/css/main.d30a2ffc.css.map",
-    "main.14bfbb77.js.map": "/Sparkids/static/js/main.14bfbb77.js.map",
+    "main.352eda10.css.map": "/Sparkids/static/css/main.352eda10.css.map",
+    "main.a65aac27.js.map": "/Sparkids/static/js/main.a65aac27.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d30a2ffc.css",
-    "static/js/main.14bfbb77.js"
+    "static/css/main.352eda10.css",
+    "static/js/main.a65aac27.js"
   ]
 }
