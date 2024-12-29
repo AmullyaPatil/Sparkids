@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.7d01759d.css",
-    "main.js": "/Sparkids/static/js/main.23ea47a6.js",
+    "main.css": "/Sparkids/static/css/main.95527ff2.css",
+    "main.js": "/Sparkids/static/js/main.d87dd36e.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
@@ -20,7 +20,9 @@
     "static/media/courseimg1.png": "/Sparkids/static/media/courseimg1.71359c5ff4ca57988358.png",
     "static/media/courseimg2.png": "/Sparkids/static/media/courseimg2.0ca4a2bb65a061b6a027.png",
     "static/media/coursevedic.png": "/Sparkids/static/media/coursevedic.942fa6cdc29613e7c732.png",
+    "static/media/courseimg5.png": "/Sparkids/static/media/courseimg5.103d33ee38c0f6e96135.png",
     "static/media/coursehero.png": "/Sparkids/static/media/coursehero.5475b4c916d1fded1122.png",
+    "static/media/courseimg4.png": "/Sparkids/static/media/courseimg4.bf9f8c68a5f1003766df.png",
     "static/media/aboutushero.png": "/Sparkids/static/media/aboutushero.0af0c655d8ce4056e818.png",
     "static/media/media2.png": "/Sparkids/static/media/media2.8c0b2b899f861922a291.png",
     "static/media/franchisesuccess1.png": "/Sparkids/static/media/franchisesuccess1.7e656c6ccbafda2a4347.png",
@@ -70,16 +72,19 @@
     "static/media/person.png": "/Sparkids/static/media/person.51e3faea3f703d697b08.png",
     "static/media/opport2.jpg": "/Sparkids/static/media/opport2.f959eca956a1f88bb0d9.jpg",
     "static/media/testimonial1.png": "/Sparkids/static/media/testimonial1.e01084de8565b7497ed8.png",
+    "static/media/revicons.eot": "/Sparkids/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/ourstory3.png": "/Sparkids/static/media/ourstory3.582b03bc5fa5170af4b8.png",
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
+    "static/media/revicons.ttf": "/Sparkids/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
+    "static/media/revicons.woff": "/Sparkids/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Sparkids/index.html",
-    "main.7d01759d.css.map": "/Sparkids/static/css/main.7d01759d.css.map",
-    "main.23ea47a6.js.map": "/Sparkids/static/js/main.23ea47a6.js.map",
+    "main.95527ff2.css.map": "/Sparkids/static/css/main.95527ff2.css.map",
+    "main.d87dd36e.js.map": "/Sparkids/static/js/main.d87dd36e.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d01759d.css",
-    "static/js/main.23ea47a6.js"
+    "static/css/main.95527ff2.css",
+    "static/js/main.d87dd36e.js"
   ]
 }
