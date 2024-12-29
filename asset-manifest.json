@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.f31aa90f.css",
-    "main.js": "/Sparkids/static/js/main.91c83651.js",
+    "main.css": "/Sparkids/static/css/main.22518d6d.css",
+    "main.js": "/Sparkids/static/js/main.6b0b8dfd.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
@@ -67,11 +67,15 @@
     "static/media/quesmem6.png": "/Sparkids/static/media/quesmem6.58d5b6458417bac70b8c.png",
     "static/media/quesmem3.png": "/Sparkids/static/media/quesmem3.1ade99785ed6c60e478f.png",
     "static/media/watermark.png": "/Sparkids/static/media/watermark.9cba50d162bed2d46543.png",
+    "static/media/person3.png": "/Sparkids/static/media/person3.1d13492e63315b94ef54.png",
     "static/media/logo.png": "/Sparkids/static/media/logo.aa0c3ebb416c0b99795b.png",
+    "static/media/person4.png": "/Sparkids/static/media/person4.221f8802f9348041bbea.png",
     "static/media/bgofimage.png": "/Sparkids/static/media/bgofimage.42a280005433934a278e.png",
     "static/media/person.png": "/Sparkids/static/media/person.51e3faea3f703d697b08.png",
     "static/media/opport2.jpg": "/Sparkids/static/media/opport2.f959eca956a1f88bb0d9.jpg",
     "static/media/testimonial1.png": "/Sparkids/static/media/testimonial1.e01084de8565b7497ed8.png",
+    "static/media/person1.png": "/Sparkids/static/media/person1.9bfc6732211393bfc1bb.png",
+    "static/media/person2.png": "/Sparkids/static/media/person2.9bfc6732211393bfc1bb.png",
     "static/media/revicons.eot": "/Sparkids/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/ourstory3.png": "/Sparkids/static/media/ourstory3.582b03bc5fa5170af4b8.png",
     "static/media/ourstory4.png": "/Sparkids/static/media/ourstory4.b1f1345f8cd4a850ddb5.png",
@@ -79,12 +83,12 @@
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "static/media/revicons.woff": "/Sparkids/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Sparkids/index.html",
-    "main.f31aa90f.css.map": "/Sparkids/static/css/main.f31aa90f.css.map",
-    "main.91c83651.js.map": "/Sparkids/static/js/main.91c83651.js.map",
+    "main.22518d6d.css.map": "/Sparkids/static/css/main.22518d6d.css.map",
+    "main.6b0b8dfd.js.map": "/Sparkids/static/js/main.6b0b8dfd.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f31aa90f.css",
-    "static/js/main.91c83651.js"
+    "static/css/main.22518d6d.css",
+    "static/js/main.6b0b8dfd.js"
   ]
 }
