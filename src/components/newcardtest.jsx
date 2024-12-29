@@ -33,7 +33,7 @@ const BoxLayoutCard = ({ image, title, rating, description, age, levels, time,co
         </span>
         <span className="info-item1">
           <img className="learn-more" src={courseLearnMore} alt="Learn More" />
-          <h2 ><Link to={`/${courseId}`} className="home-learn-more-text">Learn more{" "}</Link></h2>
+          <h2 ><Link to={`/${courseId}`} className="home-learn-more-text1">Learn more{" "}</Link></h2>
 
         </span>
       </div>
