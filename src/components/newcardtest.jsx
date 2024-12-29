@@ -13,7 +13,7 @@ import rubiksCubeImage from "../Assets/home-img/courseimg3.png";
 import handwritingImage from "../Assets/home-img/courseimg4.png";
 import readingImage from "../Assets/home-img/courseimg5.png";
 
-const BoxLayoutCard = ({ image, title, rating, description, age, levels, time,courseId, }) => (
+const BoxLayoutCard = ({ image, title, rating, description, age, levels, time,courseId }) => (
   <div className="product-box">
     <img src={image} alt={title} className="product-image" />
     <div className="description-box">
@@ -33,7 +33,7 @@ const BoxLayoutCard = ({ image, title, rating, description, age, levels, time,co
         </span>
         <span className="info-item1">
           <img className="learn-more" src={courseLearnMore} alt="Learn More" />
-          <h2 ><Link to={`/${courseId}`} className="home-learn-more-text1">Learn more{" "}</Link></h2>
+          <Link to={`/${courseId}`} className="home-learn-more-text1">Learn more{" "}</Link>
 
         </span>
       </div>
@@ -153,6 +153,7 @@ const CardsContainer = () => {
             age={card.age}
             levels={card.levels}
             time={card.time}
+            courseId={card.courseId}
           />
         ))}
       </Carousel>
