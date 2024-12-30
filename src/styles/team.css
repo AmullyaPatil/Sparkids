@@ -181,6 +181,7 @@
     grid-template-columns: repeat(1, 1fr); /* 1 card per row */
     gap: 20px;
     width: 100%;
+    margin-left: -5px;
   }
   .team-card {
     width: 100%;
