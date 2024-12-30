@@ -262,6 +262,13 @@ span{
         bottom: 59px;
         right: 90px;
     }
+    .home-card-info-text p{
+        font-size: 18px;
+    }
+    .home-card-info-text h3{
+        font-size: 40px;
+        margin-top: -8px;
+    }
 }
 @media (max-width: 376px) {
     
