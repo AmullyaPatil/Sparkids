@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import "../styles/newcardtest(1).css";
 import courseAge from "../Assets/home-img/course-age.png";
 import courseLevel from "../Assets/home-img/course-level.png";
@@ -20,7 +21,6 @@ const BoxLayoutCard1 = () => {
     container.scrollBy({ left: scrollAmount, behavior: "smooth" });
   };
 
-  // Updated card data
   const cards = [
     {
       image: abacusImage,
@@ -30,6 +30,7 @@ const BoxLayoutCard1 = () => {
       age: "4+",
       levels: "8 Levels",
       duration: "12 Months",
+      path: "/abacus",
     },
     {
       image: vedicMathsImage,
@@ -39,6 +40,7 @@ const BoxLayoutCard1 = () => {
       age: "12+",
       levels: "2 Levels",
       duration: "6 Months",
+      path: "/vedic",
     },
     {
       image: rubiksCubeImage,
@@ -48,6 +50,7 @@ const BoxLayoutCard1 = () => {
       age: "7+",
       levels: "2 Levels",
       duration: "6 Months",
+      path: "/rubic",
     },
     {
       image: handwritingImage,
@@ -57,6 +60,7 @@ const BoxLayoutCard1 = () => {
       age: "4+",
       levels: "3 Levels",
       duration: "9 Months",
+      path: "/handwriting",
     },
     {
       image: readingImage,
@@ -66,12 +70,21 @@ const BoxLayoutCard1 = () => {
       age: "3+",
       levels: "2 Levels",
       duration: "6 Months",
+      path: "/reading",
     },
-    
   ];
 
   return (
     <div className="card-wrapper">
+      <div className="home-card-info-text">
+        <h2>Our Courses</h2>
+        <h3>Whole-Brain Development</h3>
+        <p>
+          At Brave Sparkids Academy, we believe in nurturing the full potential
+          of <br />
+          each child through holistic approach to education.
+        </p>
+      </div>
       <div className="Card" ref={cardContainerRef}>
         {cards.map((card, index) => (
           <div className="product-box1" key={index}>
@@ -92,8 +105,10 @@ const BoxLayoutCard1 = () => {
                   <img src={courseTime} alt="Time" className="icon" /> {card.duration}
                 </span>
                 <span className="info-item1">
-                  <img className="learn-more" src={courseLearnMore} alt="Learn More" />
-                  <h2>Learn More</h2>
+                  <Link to={card.path} className="learn-more-link">
+                    <img className="learn-more" src={courseLearnMore} alt="Learn More" />
+                    <h2>Learn More</h2>
+                  </Link>
                 </span>
               </div>
             </div>

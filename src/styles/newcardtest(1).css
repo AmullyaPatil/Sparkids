@@ -13,7 +13,7 @@
     scroll-behavior: smooth;
     gap: 28px;
     padding: 10px;
-    width: 80%;
+    width: 78%;
     height: 565px;
   }
   
@@ -203,6 +203,9 @@ span{
     width: 189px;
     height: 123px;
     object-fit: contain;
+}
+.learn-more-link {
+  text-decoration: none;
 }
 .learn-more img{
     width: 100px;
