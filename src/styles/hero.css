@@ -662,12 +662,13 @@
     margin-top: 8px;
   }
   .brain-layout {
-    width: 100%;
+    width: 202%;
     height: 350px;
+    margin-left: -100px;
   }
   .hero-image {
     order: 1;
-    width: 100%;
+    width: 50%;
     height: 350px;
   }
   .explore-btn, .opportunity-btn {
@@ -682,9 +683,9 @@
 
 @media (max-width:394px) {
   .brain-layout {
-    width: 109%;
+    width: 164%;
     height: 350px;
-    margin-left: -10px;
+    margin-left: -66px;
   }
   .explore-btn,
   .opportunity-btn {
