@@ -233,7 +233,11 @@
     font-size: 16px;
   }
 }
-
+@media (max-width: 390px) {
+  .social-link span {
+    font-size: 14px;
+}
+}
 /* For screens smaller than 375px */
 @media (max-width: 376px) {
   .branches-container {
@@ -276,7 +280,7 @@
     height:30px;
   }
   .social-link span {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 

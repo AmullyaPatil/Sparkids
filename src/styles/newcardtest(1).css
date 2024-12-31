@@ -206,6 +206,7 @@ span{
 }
 .learn-more-link {
   text-decoration: none;
+  cursor: pointer;
 }
 .learn-more img{
     width: 100px;

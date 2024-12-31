@@ -464,7 +464,11 @@
     left: -1%;
   }
 }
-
+@media(max-width:360px){
+  .main-image{
+    margin-left: 77px;
+  }
+}
 @media (max-width: 321px) {
  
   .content-section h1 {
