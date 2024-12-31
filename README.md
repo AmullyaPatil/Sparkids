@@ -1,22 +1,18 @@
-# Sparkids
-
-Home page components created
-  
-- Header , Hero section completed
-- footer section completed
-- Opportunity section completed
-- Career section completed
-- sight section completed
-
-# Home Page completed
-
-# AboutUs Page completed
-
-# Courses Page completed
-
-# Franchise Page completed
-- done wuth font & color modification
-
+# Sparkids 🌟
 
 ## Run live 👇🏻
 [Sparkid](https://AmullyaPatil.github.io/Sparkids)
+
+- Sparkids is an educational platform designed to empower young learners with engaging and 
+interactive courses. Our mission is to inspire curiosity, creativity, 
+and confidence in children by providing high-quality educational content.
+
+## Technology Stack 🛠  
+- Frontend: Built using modern web technologies like React for optimized performance.
+- Backend: Mongodb , Springboot.
+
+## Responsive Design: The site is fully responsive, ensuring a smooth experience across devices.
+## Interactive Features: Includes dynamic course pages, user dashboards, and project showcases.
+
+## Features 🚀
+- User-Friendly Interface: Simplified navigation and an intuitive design for kids and parents.
