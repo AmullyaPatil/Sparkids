@@ -228,10 +228,11 @@
 
 @media (max-width: 426px) {
   .pagename {
-    font-size: 20px;
+    font-size: 14px;
+    left: -84px;
+    top: -41px;
     padding: 1.5rem;
-    left:-505px;
-  }
+}
   .maincourse-container{
     height: auto;
   }
@@ -272,8 +273,10 @@
 
 @media (max-width: 376px) {
   .pagename {
-    font-size: 18px;
+    font-size: 14px;
     padding: 1.2rem;
+    left:-60px;
+    top:-42px;
   }
   .maincourse-container {
     height: auto;
@@ -313,7 +316,7 @@
 
 @media (max-width: 320px) {
   .pagename {
-    font-size: 18px;
+    font-size: 10px;
     padding: 1.2rem;
     text-align: left;
     margin-left: 97px;
