@@ -51,45 +51,45 @@ const jobData = [
         id: 3,
         type: "English Communication Trainer",
         category: "Academic",
-        locations: ["Mid-Level", "Chennai", "Madurai"],
-        responsibilities:"Designing and implementing user interfaces using HTML, CSS, and JavaScript frameworks like React or Angular. Building and maintaining server-side application logic, databases....",
-         /*} "Teach students techniques of Vedic Mathematics to improve speed and accuracy in calculations.",
-        requirements: "SExpertise in Vedic Math concepts, teaching experience preferred.",
-        details: {
-          primaryResponsibility:
-            "Teaching advanced mathematical concepts and improving...",
-          jobSpecification: [
-            "Strong command over Vedic Mathematics techniques",
-            "Proven teaching experience",
-          ],
-          employmentType: "Full-time",
-          workPlaceType: "On-site",
-          salary: "Competitive",
-          experienceRequired: "Minimum 2 Years",
-          location: "Chennai, Madurai",
-        }, */
+      locations: ["Mid-Level", "Chennai", "Madurai"],
+      responsibilities:
+        "Teach students techniques of Vedic Mathematics to improve speed and accuracy in calculations.",
+      requirements: "SExpertise in Vedic Math concepts, teaching experience preferred.",
+      details: {
+        primaryResponsibility:
+          "Teaching advanced mathematical concepts and improving...",
+        jobSpecification: [
+          "Strong command over Vedic Mathematics techniques",
+          "Proven teaching experience",
+        ],
+        employmentType: "Full-time",
+        workPlaceType: "On-site",
+        salary: "Competitive",
+        experienceRequired: "Minimum 2 Years",
+        location: "Chennai, Madurai",
+      },
     },
     {
         id: 4,
         type: "Rubik’s Cube Trainer",
         category: "Academic",
-        locations: ["Mid-Level", "Chennai", "Madurai"],
-        responsibilities:"Designing and implementing user interfaces using HTML, CSS, and JavaScript frameworks like React or Angular. Building and maintaining server-side application logic, databases....",
-         /*} "Teach students techniques of Vedic Mathematics to improve speed and accuracy in calculations.",
-        requirements: "SExpertise in Vedic Math concepts, teaching experience preferred.",
-        details: {
-          primaryResponsibility:
-            "Teaching advanced mathematical concepts and improving...",
-          jobSpecification: [
-            "Strong command over Vedic Mathematics techniques",
-            "Proven teaching experience",
-          ],
-          employmentType: "Full-time",
-          workPlaceType: "On-site",
-          salary: "Competitive",
-          experienceRequired: "Minimum 2 Years",
-          location: "Chennai, Madurai",
-        }, */
+      locations: ["Mid-Level", "Chennai", "Madurai"],
+      responsibilities:
+        "Teach students techniques of Vedic Mathematics to improve speed and accuracy in calculations.",
+      requirements: "SExpertise in Vedic Math concepts, teaching experience preferred.",
+      details: {
+        primaryResponsibility:
+          "Teaching advanced mathematical concepts and improving...",
+        jobSpecification: [
+          "Strong command over Vedic Mathematics techniques",
+          "Proven teaching experience",
+        ],
+        employmentType: "Full-time",
+        workPlaceType: "On-site",
+        salary: "Competitive",
+        experienceRequired: "Minimum 2 Years",
+        location: "Chennai, Madurai",
+      },
     },
   ];
   
