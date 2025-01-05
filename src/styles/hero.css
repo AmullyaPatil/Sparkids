@@ -346,10 +346,8 @@
   margin-top:-96px;
 }
 
-
-
-/* Media Query for Tablet (max-width: 768px) */
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px){
+/* @media (max-width: 768px) { */
   
   
   .brain-layout {

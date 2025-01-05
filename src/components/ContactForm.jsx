@@ -34,7 +34,7 @@ const ContactForm = () => {
         <div className="contact-info-section">
           <h2>Contact us directly</h2>
           <p><span>Call:</span> <br /> +91 82170 77217</p>
-          <p><span>Email:</span> <br /> example@mail.com</p>
+          <p><span>Email:</span> <br /> sparkids@mail.com</p>
           <p><span>Address:</span> <br />
             Indi Regional Office <br />
             Behind BSNL Tower, Near Mallikarjun Temple, <br />
