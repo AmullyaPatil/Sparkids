@@ -9,6 +9,7 @@
   text-align: left;
   font-family: Geologica;
   font-weight: 400;
+  margin-left:8%;
 }
 
 .branches-row {
@@ -20,7 +21,7 @@
 
 .branch-card {
   flex: 1;
-  max-width: 30%;
+  max-width: 85%;
   text-align: center;
 }
 
@@ -38,6 +39,9 @@
   margin-top: 10px;
   text-align: left;
   color: #455a64;
+}
+.swiper {
+  margin-left: 8%;
 }
 
 .contact-social-section {
@@ -203,7 +207,7 @@
   }
 
   .branch-card {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .branch-card h3 {
@@ -233,11 +237,7 @@
     font-size: 16px;
   }
 }
-@media (max-width: 390px) {
-  .social-link span {
-    font-size: 14px;
-}
-}
+
 /* For screens smaller than 375px */
 @media (max-width: 376px) {
   .branches-container {
@@ -253,7 +253,7 @@
   }
 
   .branch-card {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .branch-card h3 {
@@ -280,7 +280,7 @@
     height:30px;
   }
   .social-link span {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -299,7 +299,7 @@
   }
 
   .branch-card {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .branch-card h3 {
