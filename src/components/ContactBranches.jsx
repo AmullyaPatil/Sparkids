@@ -4,6 +4,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import "../styles/ContactBranches.css";
+import media1 from "../Assets/contact-img/media1.png";
+import media2 from "../Assets/contact-img/media2.png";
+import media3 from "../Assets/contact-img/media3.png";
 
 const BranchCarousel = () => {
   const branches = [
@@ -97,6 +100,21 @@ const BranchCarousel = () => {
             <span>Instagram</span>
           </a>
         </div>
+      </div>
+      <div className="media-section">
+        <h2 className="media-section-heading ">Watch our social media posts</h2>
+        <p className="media-section-redirect">
+          <a href="#instagram">redirect Instagram &gt;</a>
+        </p>
+        <div className="media-gallery">
+        <img src={media1} alt="post1" />
+        <img src={media2} alt="post2" />
+        <img src={media3} alt="post3" />
+        <img src={media2} alt="post4" />
+                 </div>
+        <p className="contact-footer-text">
+          Every great mind was once a curious child. Let’s spark that curiosity together!
+        </p>
       </div>
     </div>
   );
