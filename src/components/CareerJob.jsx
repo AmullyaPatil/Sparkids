@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useRef } from "react";
 import "../styles/CareerJob.css";
 
 const jobData = [
@@ -99,12 +99,21 @@ const jobData = [
     const [selectedJob, setSelectedJob] = useState(jobData[0]);
     const [selectedFilter, setSelectedFilter] = useState("All positions");
     const [showApplicationForm, setShowApplicationForm] = useState(false);
-  
+    const jobDetailsRef = useRef(null);
+
     const filteredJobs =
       selectedFilter === "All positions"
         ? jobData
         : jobData.filter((job) => job.category === selectedFilter);
-    const handleApplyNow = () => {
+    
+        const handleJobClick = (job) => {
+          setSelectedJob(job);
+          if (jobDetailsRef.current) {
+            jobDetailsRef.current.scrollIntoView({ behavior: "smooth" });
+          }
+        };
+
+        const handleApplyNow = () => {
     setShowApplicationForm(true);
   };
 
@@ -138,7 +147,8 @@ const jobData = [
                   className={`job-item ${
                     selectedJob?.id === job.id ? "active" : ""
                   }`}
-                  onClick={() => setSelectedJob(job)}
+                  onClick={() => handleJobClick(job)}
+                    // setSelectedJob(job)}
                 >
                   <h3>{job.type}</h3>
                   <div className="job-tags">
@@ -156,7 +166,7 @@ const jobData = [
           </div>
   
           {/* Right Section: Job Details */}
-          <div className="job-details">
+          <div className="job-details" ref={jobDetailsRef}>
           {showApplicationForm ? (
             <div className="job-application-form">
               <h3>Job Application</h3>
