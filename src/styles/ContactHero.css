@@ -68,13 +68,10 @@ color: #f58634;
   color: #666;
 }
 
-
-
-/* Responsive Adjustments */
 @media (max-width: 768px) {
 .contactus {
-  height: 68vh; /* Half the screen height */
-  background-size: contain; /* Dynamically adjusts to fit container */
+  height: 44vh;
+  background-size: contain;
 }
 
 .contactus-content {
