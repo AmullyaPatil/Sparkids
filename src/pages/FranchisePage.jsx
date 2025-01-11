@@ -1,6 +1,4 @@
 import React from "react";
-//import Header from "../components/Header";
-//import Footer from "../components/Footer";
 import Franchisehero from "../components/franchiseHero";
 import FranchiseInvestment from "../components/franchiseInvestment";
 import FranchiseProcess from "../components/franchiseapplication";
@@ -10,20 +8,21 @@ import FranchiseSupport from "../components/FranchiseSupport";
 import FAQ from "../components/FranchiseFAQ";
 import QuestionSection from "../components/Question";
 
-
 const FranchisePage = () => {
-    return (
-      <div>
-        <Franchisehero />
-        <FranchiseOurstory />
-        <FranchiseInvestment />
-        <FranchiseSupport />
-        <FranchiseProcess />
+  return (
+    <div>
+      <Franchisehero />
+      <FranchiseOurstory />
+      <FranchiseInvestment />
+      <FranchiseSupport />
+      <FranchiseProcess />
+      <div id="faq"> {/* Add the ID here */}
         <FAQ />
-        <FranchiseSuccess />
-        <QuestionSection />
       </div>
-    );
-  };
-  
-  export default FranchisePage;
+      <FranchiseSuccess />
+      <QuestionSection />
+    </div>
+  );
+};
+
+export default FranchisePage;
