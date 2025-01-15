@@ -6,12 +6,13 @@
   padding: 10px 110px;
   background: linear-gradient(to right, #fff, #fef6f0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 3px solid #f3a770;
   position: sticky;
   top: 0;
   z-index: 1000;
-  font-family: 'Arial', sans-serif;
   height: 102px;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 0 15px #f58634;
 }
 
 /* Logo */
@@ -41,7 +42,7 @@
 
 .nav a {
   text-decoration: none;
-  color: #4a4a4a;
+  color: #455A64;
   transition: color 0.3s;
 }
 
@@ -118,6 +119,9 @@ button {
 .dropdown:hover .dropdown-menu {
   display: flex;
 }
+.dropdown:hover .dropdown-arrow {
+  transform: rotate(90deg);
+}
 
 .dropdown-item {
   color: #4a4a4a;
@@ -139,6 +143,8 @@ button {
 .dropdown-menu{
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 10px rgba(255, 124, 46, 0.6);
+  margin-left: 20px;
 }
 .dropdown-menu.show:hover{
   display: flex;
@@ -146,15 +152,22 @@ button {
 }
 .dropdown-item {
   color: #4a4a4a;
-  padding: 10px;
+  padding: 5px;
   transition: background-color 0.3s, color 0.3s;
   margin-bottom: 0px;
+  font-weight: 100;
 }
 .dropdown-label {
   display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #4a4a4a;
+      align-items: center;
+      gap: 8px;
+      color: #4a4a4a;
+      border: 1px solid #F58634;
+      padding: 9px 17px;
+      border-radius: 18px;
+}
+.dropdown-label:hover {
+  box-shadow: 0 0 10px rgba(255, 124, 46, 0.6);
 }
 .dropdown-item:hover {
   background-color: #fef6f0;
@@ -198,6 +211,9 @@ button {
   }
   .nav li ,button {
     font-size: 16px;
+  }
+  .dropdown-label {
+    padding: 9px 11px;
   }
 }
 @media(max-width:900px){
