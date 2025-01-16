@@ -16,13 +16,15 @@ import HandwritingPage from "./pages/HandwritingPage";
 import ReadingPage from "./pages/ReadingPage";
 import Scrolltotop from './components/Scrolltotop';
 import CustomCursor from "./components/CustomCursor";
+import ThemeToggle from "./components/ThemeToggle"; // Import ThemeToggle
 
 function App() {
   return (
     <Router>
-        <Header /> 
-        <CustomCursor />
-        <Scrolltotop />
+      <Header />
+      <ThemeToggle /> {/* Add ThemeToggle button here */}
+      <CustomCursor />
+      <Scrolltotop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

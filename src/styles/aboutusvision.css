@@ -76,7 +76,7 @@ width:50%
 .f-vision-title {
 font-size: 50px;
 font-weight: 400; 
-color: #F58634;
+color: var(--primary-orange);
 margin: 0 0 10px 0; 
 font-family: Lilita One;
 }

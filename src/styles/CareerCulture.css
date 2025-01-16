@@ -13,7 +13,7 @@
 }
 
 .career-culture-heading {
-    color: #f58634;
+    color: var(--primary-orange);
     font-size: 24px;
     margin-bottom: 1rem; /* Adjust spacing */
     font-family: Geologica;
@@ -24,7 +24,7 @@
     margin-bottom: 1rem; 
     margin-top: 0; 
     font-family: Lilita One;
-    color: #455A64;
+    color: var(--primary-grey);
 }
 
 .career-culture-description {
