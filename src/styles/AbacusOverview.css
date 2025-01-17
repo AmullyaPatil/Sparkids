@@ -41,7 +41,7 @@
     border: 2px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    background: #f5f5f5;
+    background: var(--item-color);
     margin-left:-150px;
 
 }
@@ -122,7 +122,7 @@
 
 .dropdown-content {
   padding: 1rem;
-  background: #f5f5f5;
+  background: var(--item-color);
   font-size: 24px;
   font-family: 'Geologica';
   color: var(--primary-grey);

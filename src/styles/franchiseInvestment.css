@@ -31,7 +31,7 @@
     font-size: 24px;
     margin-bottom: 4rem;
     margin-top: -4rem;
-    color: #555;
+    color: var(--text-color);
     line-height: 1.5;
     font-family: Geologica;
   }
@@ -54,7 +54,7 @@
     font-size: 24px;
     margin-bottom: 1rem;
     font-weight: bold;
-    color: #333;
+    color:var(--topic-color);
     font-family: Geologica;
   }
   
@@ -78,7 +78,7 @@
   
   .investment-column li span {
     font-size: 24px;
-    color: #555;
+    color: var(--text-color);
     line-height: 1.5;
   }
   @media (max-width: 1024px) {

@@ -103,7 +103,7 @@
   .job-content{
     font-family: geologica;
     font-size: 22px;
-    color: #4F5665;
+    color: var(--career-job);
     font-weight: 200;
   }
   .job-content span{
@@ -139,7 +139,7 @@
   .job-description ul {
     font-size: 22px;
     font-family: geologica;
-    color: #4F5665;
+    color: var(--career-job);
   }
   
   .job-description ul {
@@ -179,7 +179,7 @@
   
   .job-application-form p {
     font-size: 14.82px;
-    color: #4f5665;
+    color: var(--career-job);
     margin-bottom: 20px;
   }
   

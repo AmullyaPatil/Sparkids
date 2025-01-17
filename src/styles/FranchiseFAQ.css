@@ -45,14 +45,14 @@ gap: 10px;
 }
 
 .faq-question:hover {
-  background-color: #eee;
+  background-color: var(--item-color);
 }
 
 
 .faq-answer {
   padding: 15px;
  font-weight: 100;
-  color: #555;
+  color: var(--text-color);
   font-size: 22px;
   font-family: Geologica;
   line-height: 1.6;

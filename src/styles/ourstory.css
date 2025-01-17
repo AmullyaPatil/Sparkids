@@ -86,7 +86,7 @@ background: linear-gradient(to right, #f5f5f5, #ffe6cc);
 
 .timeline-card p {
   font-size: 22px;
-  color: #1e1e1e;
+  color: var(--item-text);
   font-style: geologica;
   margin-top: 30px;
 }
