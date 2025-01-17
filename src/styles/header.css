@@ -161,7 +161,7 @@ button {
   display: inline-flex;
       align-items: center;
       gap: 8px;
-      color: #4a4a4a;
+      color: var(--primary-grey);
       border: 1px solid var(--primary-orange);
       padding: 9px 17px;
       border-radius: 18px;
