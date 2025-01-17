@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { NavLink } from "react-router-dom";
-import ThemeToggle from "./ThemeToggle";
-import logo from "../Assets/home-img/logo.png";
+import ThemeToggle from "./ThemeToggle"; // Custom theme toggle component
+import { ThemeContext } from "../context/ThemeContext";
 import "../styles/header.css";
 import Dropdown from "react-bootstrap/Dropdown";
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
+
 
   const toggleNav = () => setIsNavOpen(!isNavOpen);
   const closeNav = () => setIsNavOpen(false);
-
   return (
     <header className="header">
-      <ThemeToggle />
       <div className="logo">
         <NavLink to="/">
           {/*           <img src={logo} alt="Brave Sparkids Logo" /> */}
@@ -60,6 +60,9 @@ function Header() {
         <span></span>
       </div>
       <nav className={`nav ${isNavOpen ? "active" : ""}`}>
+      <button onClick={toggleTheme}>
+        {isDarkMode ? "🌞 Mode" : "˚☽˚.⋆ Mode"}
+      </button>
         <ul>
           <li>
             <NavLink

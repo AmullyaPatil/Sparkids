@@ -1,7 +1,7 @@
-// src/context/ThemeContext.js
 import React, { createContext, useState, useEffect } from "react";
 
-export const ThemeContext = createContext();
+// Create the context
+export const ThemeContext = createContext(); // Ensure this is explicitly exported
 
 const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -24,4 +24,5 @@ const ThemeProvider = ({ children }) => {
   );
 };
 
+// Export the provider as default
 export default ThemeProvider;

@@ -22,7 +22,6 @@ function App() {
   return (
     <Router>
       <Header />
-      <ThemeToggle /> {/* Add ThemeToggle button here */}
       <CustomCursor />
       <Scrolltotop />
       <Routes>
