@@ -16,7 +16,8 @@ import HandwritingPage from "./pages/HandwritingPage";
 import ReadingPage from "./pages/ReadingPage";
 import Scrolltotop from './components/Scrolltotop';
 import CustomCursor from "./components/CustomCursor";
-import ThemeToggle from "./components/ThemeToggle"; // Import ThemeToggle
+import ThemeToggle from "./components/ThemeToggle";
+import Splash from './components/SplashCursor';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Header />
       <CustomCursor />
       <Scrolltotop />
+      <Splash />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

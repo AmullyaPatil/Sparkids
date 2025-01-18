@@ -31,7 +31,8 @@ code {
 
 [data-theme="dark"] {
   --primary-orange: #f58634;
-  --primary-grey: #04A8FF;
+  /* --primary-grey: #04A8FF; */
+  --primary-grey: #E3E0E0;
   --highlight-color: #f1f1f1;
   --item-color: #2b2b2b;
   --item-text: #f1f1f1;
