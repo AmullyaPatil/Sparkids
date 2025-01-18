@@ -14,25 +14,33 @@ import puzzle from '../Assets/home-img/brain-img/puzzle.png';
 import puzzle2 from '../Assets/home-img/brain-img/puzzle2.png';
 import symbol from '../Assets/home-img/brain-img/symbol.png';
 import gear from '../Assets/home-img/brain-img/gear.png';
-import '../styles/hero.css';
+import '../styles/Hero1.css';
 import watermark from '../Assets/home-img/watermark.png';
+import logo from "../Assets/home-img/logo.png";
+import logoIcon from "../Assets/logo1.png";
 
-const Hero = () => {
+const Hero1 = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
-      <p className="hero-subtitle">With Brave Sparkids Academy</p>
-        <p className="hero-description">
+      <div className="header1-logo">
+            <img src={logo} alt="Logo" className="header1-logo-icon" />
+            </div>
+        <h1 className="hero1-heading">Empower your <br />
+        <span>Child's Mind</span>
+        </h1>
+        <p className="hero1-subtitle">With Brave Sparkids Academy</p>
+        <p className="hero1-description">
           Unlock your child’s potential with programs designed <br /> to
           sharpen skills, foster creativity, and <br /> nurture lifelong success.
         </p>
-        <h1 className="hero-heading">Empower your <br />
-          <span>Child's Mind</span>
-        </h1>
-        
         <div className="hero-buttons">
-        <Link to="/courses" className="explore-btn">Explore Courses</Link>
-        <Link to="/franchise"  className="opportunity-btn glow">Get Franchise</Link>
+        <Link to="/courses" className="explore-btn1">Explore Courses</Link>
+        <Link to="/franchise"  className="opportunity-btn1 glow">Get Franchise</Link>
+        {/* <a href="#contact" className="opportunity-btn1 glow">
+              <img src={logoIcon} alt="Contact Icon" className="new-nav-icon" />
+              Get Franchise
+            </a> */}
         </div>
         <div className="hero-stats">
           <div className="stats-images">
@@ -76,4 +84,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero1;
