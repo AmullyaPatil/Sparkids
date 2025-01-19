@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.c941572b.css",
-    "main.js": "/Sparkids/static/js/main.ac48f2a0.js",
+    "main.css": "/Sparkids/static/css/main.b8af20da.css",
+    "main.js": "/Sparkids/static/js/main.249c6e94.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
@@ -84,12 +84,12 @@
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "static/media/revicons.woff": "/Sparkids/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Sparkids/index.html",
-    "main.c941572b.css.map": "/Sparkids/static/css/main.c941572b.css.map",
-    "main.ac48f2a0.js.map": "/Sparkids/static/js/main.ac48f2a0.js.map",
+    "main.b8af20da.css.map": "/Sparkids/static/css/main.b8af20da.css.map",
+    "main.249c6e94.js.map": "/Sparkids/static/js/main.249c6e94.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c941572b.css",
-    "static/js/main.ac48f2a0.js"
+    "static/css/main.b8af20da.css",
+    "static/js/main.249c6e94.js"
   ]
 }
