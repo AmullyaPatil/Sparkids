@@ -51,7 +51,7 @@ const Hero1 = () => {
             <img src={person4} alt="Student 5" />
           </div>
           <p className="stats-text">
-            <h1>9000+ Students <br /><span className="highlight"> have started their studies </span> </h1>
+            <h1 className="stats-testi">9000+ Students <br /><span className="highlight"> have started their studies </span> </h1>
           </p>
         </div>
         <div className="opportunity-note">
