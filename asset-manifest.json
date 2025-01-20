@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sparkids/static/css/main.a93d4045.css",
-    "main.js": "/Sparkids/static/js/main.11552140.js",
+    "main.css": "/Sparkids/static/css/main.6ef1ab71.css",
+    "main.js": "/Sparkids/static/js/main.3fadab98.js",
     "static/js/453.18b898a5.chunk.js": "/Sparkids/static/js/453.18b898a5.chunk.js",
     "static/media/img.png": "/Sparkids/static/media/img.fe6c308dde18a8ed741d.png",
     "static/media/franchisehero.png": "/Sparkids/static/media/franchisehero.62e19172435d7749c4cb.png",
@@ -73,7 +73,6 @@
     "static/media/bgofimage.png": "/Sparkids/static/media/bgofimage.42a280005433934a278e.png",
     "static/media/person.png": "/Sparkids/static/media/person.51e3faea3f703d697b08.png",
     "static/media/opport2.jpg": "/Sparkids/static/media/opport2.f959eca956a1f88bb0d9.jpg",
-    "static/media/logo1.png": "/Sparkids/static/media/logo1.10dd48172c73989a20f0.png",
     "static/media/testimonial1.png": "/Sparkids/static/media/testimonial1.e01084de8565b7497ed8.png",
     "static/media/person1.png": "/Sparkids/static/media/person1.9bfc6732211393bfc1bb.png",
     "static/media/person2.png": "/Sparkids/static/media/person2.9bfc6732211393bfc1bb.png",
@@ -84,12 +83,12 @@
     "static/media/ourstory1.png": "/Sparkids/static/media/ourstory1.282f0b3bd8f9bd04d6d3.png",
     "static/media/revicons.woff": "/Sparkids/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Sparkids/index.html",
-    "main.a93d4045.css.map": "/Sparkids/static/css/main.a93d4045.css.map",
-    "main.11552140.js.map": "/Sparkids/static/js/main.11552140.js.map",
+    "main.6ef1ab71.css.map": "/Sparkids/static/css/main.6ef1ab71.css.map",
+    "main.3fadab98.js.map": "/Sparkids/static/js/main.3fadab98.js.map",
     "453.18b898a5.chunk.js.map": "/Sparkids/static/js/453.18b898a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a93d4045.css",
-    "static/js/main.11552140.js"
+    "static/css/main.6ef1ab71.css",
+    "static/js/main.3fadab98.js"
   ]
 }
