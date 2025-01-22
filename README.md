@@ -1,8 +1,8 @@
 # Sparkids 🌟
 
 ## versions
-- normal light mode: v1.0.0
-- dark mode: v1.1.0
+- Normal light mode: v1.0.0
+- Dark mode: v1.1.0
 - Splash cursor mode : v1.2.0
 
 ## Run live 👇🏻
