@@ -12,7 +12,7 @@
 interactive courses. Our mission is to inspire curiosity, creativity, 
 and confidence in children by providing high-quality educational content.
 
-## Technology Stack 🛠  
+## Technology Stack 🛠
 - Frontend: Built using modern web technologies like React for optimized performance.
 - Backend: Mongodb , Springboot.
 
