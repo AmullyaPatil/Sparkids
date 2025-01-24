@@ -137,6 +137,12 @@
   left: 120px;
   animation-delay: 0.8s;
 }
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(-100%);
+  }
+}
+
 
 
 .stats-images img {
