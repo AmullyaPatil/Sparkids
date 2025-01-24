@@ -94,8 +94,6 @@
   .opportunity-btn1 {
     background-color: var(--primary-orange);
     color: #131111;
-    width: 235px;
-    height: 56px;
     /* border: 2px solid var(--primary-orange); */
     transition: all 0.3s ease;
     font-family: Leckerli One;
@@ -385,7 +383,7 @@
     margin-top:-96px;
   }
    @media(max-width:1280px){
-    .opportunity-btn, .explore-btn{
+    .opportunity-btn1, .explore-btn1{
       padding: 15px 35px;
     }
     .stats-text{
@@ -411,7 +409,7 @@
    }
   
   @media(max-width:1024px){
-    .opportunity-btn, .explore-btn{
+    .opportunity-btn1, .explore-btn1{
       padding: 15px 17px;
     }
     .hero-heading span{
@@ -473,14 +471,14 @@
     .hero-buttons {
       margin-top: 20px;
       flex-direction: column;
-      gap: 15px; 
+      gap: 15px;
     }
   
-    .explore-btn,
-    .opportunity-btn {
-      width: 250px; 
+    /* .explore-btn1,
+    .opportunity-btn1 {
+      width: 250px;
       height: 70px;
-    }
+    } */
     
     .stats-images img {
       width: 70px;
@@ -635,13 +633,14 @@
   
     .hero-buttons {
       margin-top: 20px;
-      gap: 15px; 
+      gap: 15px;
+      display: flex;
     }
   
-    .explore-btn,
-    .opportunity-btn {
-      width: 140px; 
-      height: 50px;
+    .explore-btn1,
+    .opportunity-btn1 {
+      /* width: 140px; 
+      height: 50px; */
       font-size: 11px;
     }
     
@@ -750,7 +749,7 @@
       width: 50%;
       height: 350px;
     }
-    .explore-btn, .opportunity-btn {
+    .explore-btn1, .opportunity-btn {
       padding: 15px 25px;
       font-size: 12px;
     }
@@ -766,8 +765,8 @@
       height: 350px;
       margin-left: -66px;
     }
-    .explore-btn,
-    .opportunity-btn {
+    .explore-btn1,
+    .opportunity-btn1 {
       padding: 12px 22px;
     }
   }
@@ -777,8 +776,8 @@
       height: 350px;
       margin-left: -70px;
     }
-    .explore-btn,
-    .opportunity-btn {
+    .explore-btn1,
+    .opportunity-btn1 {
       font-size: 8px;
     }
     .hero-image {
@@ -801,7 +800,7 @@
       width: 50%;
       height: 350px;
     }
-    .explore-btn, .opportunity-btn {
+    .explore-btn1, .opportunity-btn1 {
       padding: 10px 18px;
       font-size: 12px;
     }
@@ -830,7 +829,7 @@
       padding: 0px;
     }
     
-    .explore-btn, .opportunity-btn {
+    .explore-btn1, .opportunity-btn1 {
       padding: 12px 17px;
       font-size: 12px;
   }
